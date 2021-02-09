@@ -2,3 +2,4 @@
 <h1>My_Projects</h1>
 
 <a href="lab1/index.html" target="_blank">Lab1 hello world</a>
+<a href="lab2/index.html" target="_blank">Lab2 Basic HTML Structure </a>
