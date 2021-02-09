@@ -3,6 +3,6 @@
 
 <ul>
 <li><a href="lab1/index.html" target="_blank">Lab1 hello world</a></li>
-<li><a href="lab2/index.html" target="_blank">Lab2 Basic HTML Structure </a></li>
+<li><a href="lab2/index.html" target="_blank">Lab 2 Basic HTML Structure </a></li>
 </ul>
 
