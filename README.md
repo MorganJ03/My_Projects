@@ -8,3 +8,6 @@
 <li><a href="Lab 4/Index.html" target="_blank">Lab 4 - Introduction to CSS</a></li> 
 <li><a href="midterm/Index.html" target="_blank">mid-term projects</a></li> 
 
+</ul>
+
+
