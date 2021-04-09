@@ -9,7 +9,7 @@
 <li><a href="midterm/Index.html" target="_blank">mid-term projects</a></li> 
 <li><a href="Lab 5/index.html" target="_blank">Lab 5 - The Agricultral World</a></li> 
 <li><a href="Lab 6/index.html" target="_blank">Lab 6 - The Agricultral World</a></li>
-<li><a href="Lab 7/index.html" target="_blank">Lab 7 - Cats</a></li>
+<li><a href="Lab 7/index.html" target="_blank">Lab - Cats</a></li>
 </ul>
 
 
