@@ -10,20 +10,14 @@
     <link rel="stylesheet" href="dist/slicknav.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/jquery.slicknav.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="jquery.slicknav.min.js"></script>
     <script src="js/zenscroll-min.js"></script>
-    <script
-  src="https://code.jquery.com/color/jquery.color-2.2.0.min.js"
-  integrity="sha256-aSe2ZC5QeunlL/w/7PsVKmV+fa0eDbmybn/ptsKHR6I="
-  crossorigin="anonymous"></script>
-  <script
-  src="https://code.jquery.com/pep/0.4.3/pep.min.js"
-  integrity="sha256-ibZWIASZ948myvthXu3qCoTOg8bnJzjMJoYZz1RPg6E="
-  crossorigin="anonymous"></script>
+    <script src="dist/js/lightbox.min.js"></script>
     <script>
         $(function(){
      $("#menu" ).slicknav();
@@ -57,7 +51,9 @@
                       </div>
                     <h2 id="Main" >Main Content</h2>
                     <p>Animals are very special to people. Everyone who has a animal is most likly very attatched to their animal. In my experiance, the animals are like children to the owner. They will do anything and everything to for their animal. Some of the animals are emotional suppport for the owner and or even to keep the owner from being lonley.</p>
-                    <img src="Images/Cow Nose 1.jpg" alt="">
+                    <a href="Images/Cow Nose 1.jpg" data-lightbox="CowNose" data-title="Cow">
+                        <img src="Images/Cow Nose 1.jpg" alt="">
+                    </a>
                     <div id="accordion">
                         <h3>House Animals</h3>
                         <div>
@@ -98,10 +94,14 @@
                 <div class="feature">
                     <h3 id="Feature">Featured Project</h3>
                     <div class="projects">
+                        <a href="Images/Bird 1.jpg" data-lightbox="feature">
+                        <a href="Images/Cat 1.jpg" data-lightbox="feature">
+                        <a href="Images/Dog 1.jpg" data-lightbox="feature">
+                        <a href="Images/Horse 1.jpg" data-lightbox="feature">
                         <img src="Images/Bird 1.jpg" alt="">
                         <img src="Images/Cat 1.jpg" alt="">
                         <img src="Images/Dog 1.jpg" alt="">
-                        <img src="Images/Lizard 1.jpg" alt="">
+                        <img src="Images/Horse 1.jpg" alt="">
                     </div>
                 </div>
                 <aside>
