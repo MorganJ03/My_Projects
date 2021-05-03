@@ -1,0 +1,187 @@
+body {
+	background-color :palevioletred
+}
+
+header {
+	background-color: #d406f0;
+	color: #a9dee7;
+	padding: 15% 2%;
+	text-align: center;
+	font-size: 125%;
+}
+
+body {
+	background-color: ivory;
+}
+
+nav {
+	background-color: ivory;
+}
+
+nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: block;
+}
+
+nav li a {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+	background-color:#e2fffc;
+	text-align: center;
+	color: #1b857a;
+	font-size: 125%;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #ff915e;
+	color: #ffffff
+}
+
+main {
+	background-color: #88b3af;
+	padding: 10px;
+}
+
+article {
+	background-color: ivory;
+	padding: 2%;
+}
+
+article img {
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.projects {
+	background-color: ivory;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+.projects img {
+	display: block;
+	width: 100%;
+	margin: 1% 0;
+	border-radius: 10px;
+}
+
+aside {
+	background-color: ivory;
+	margin: 1% 0;
+	padding: 2%;
+	text-align: center;
+}
+
+aside h4 {
+	margin-bottom: 40px;
+}
+
+aside ul {
+	padding: 0;
+	list-style: none;
+}
+
+aside li {
+	display: inline-block;
+}
+
+aside li a {
+	padding: 20px 40px;
+	background-color: #af8e7f;
+	text-align: center;
+	color: #ffffff;
+	font-size: 125%;
+	text-decoration: none;
+
+}
+
+aside li a:hover {
+	background-color: #59918b;
+}
+
+footer {
+	background-color: #b67b5f;
+	text-align: center;
+	color: ivory;
+	padding: 20px 0;
+}
+
+.feature {
+		background-color: ivory;
+		padding: 10px;
+		margin-top: 1%;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	div.bx-wrapper {
+		display: none;
+	}
+		
+@media only screen and (min-width: 481px) {
+	nav {
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+		width: 24.5%;
+	}
+
+	nav li a {
+		background-color: #88B3AF;
+		color: #ffffff;
+	}
+	
+	#menu {
+		display: none;
+	}
+
+	.slicknav_menu {
+		display:none;
+	}
+
+	div.bx-wrapper {
+		display: block;
+	}
+	
+}
+
+
+@media only screen and (min-width: 791px) {
+	
+	header {
+		font-size: 3.0em;
+	}
+	
+	article img {
+		display: block;
+		margin: 20px auto;
+		width: 65%;
+	}
+	
+	.feature {
+		background-color: ivory;
+		padding: 20px;
+		margin-top: 1%;
+	}
+	
+	.projects {
+		display: flex;
+	}
+
+	.projects img {
+		margin: 1%;
+	}
+
+}

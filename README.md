@@ -11,6 +11,7 @@
 <li><a href="Lab 6/index.html" target="_blank">Lab 6 - The Agricultral World</a></li>
 <li><a href="Lab 7/index.html" target="_blank">Lab 7- Cats</a></li>
 <li><a href="Lab 8/index.html" target="_blank">Lab 8- Animals</a></li>
+<li><a href="Final Project/index.html" target="_blank">Final- Tannin</a></li>
 
 </ul>
 

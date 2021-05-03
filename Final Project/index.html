@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <title>Tanning</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="dist/slicknav.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="dist/css/lightbox.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="dist/jquery.slicknav.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="jquery.slicknav.min.js"></script>
+        <script src="js/zenscroll-min.js"></script>
+        <script src="dist/js/lightbox.min.js"></script>
+        <script>
+            $(function(){
+         $("#menu" ).slicknav();
+         $('.slider').bxSlider();
+         $("#accordion" ).accordion();
+         $("#tabs" ).tabs();
+        });
+    </script>  
+    </head>
+    <body id="Top">
+        <div id="container">
+            <header>
+                <h1>Tanning</h1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#Main">Tanning Bed</a></li>
+                    <li><a href="#Feature">Spray Tan</a></li>
+                    <li><a href="#Contact">Fake tan</a></li>
+                </ul>
+            </nav>
+            <main></main>
+            
+                <article>
+                    <div class="slider">
+                        <div><img src="Images/Bird1.jpg" alt=""></div>
+                        <div><img src="Images/Dog1.jpg" alt=""></div>
+                      </div>
+                    <h2 id="Main" >Main Content</h2>
+                    <p>Everyone likes to be tan. Everyone feels more confidant when they have some  color on their skin.</p>
+                    <a href="Pictures/Tan Line.jpeg" data-lightbox="TanLine" data-title="Tan">
+                        <img src="Pictures/Tan Line.jpeg" alt="">
+                    </a>
+                    <div id="accordion">
+                        <h3>Tanning Bed</h3>
+                        <div>
+                          <p>
+                          The tanning bed is the most popular way tan today. This is a quick and easy way to get a good even tan. This you can do everyday and see instant results.
+                          </p>
+                        </div>
+                        <h3>Spray Tan</h3>
+                        <div>
+                          <p>
+                          The spray tans are good for people who need color that day or have a event coming up very soon. This is very common in dancers, cheerleaders, and sports where you are wearing outfits that show more skin.
+                          </p>
+                        </div>
+                        <h3>Classic tanning</h3>
+                        <div>
+                          <p>
+                          Classic tanning is just laying outside in the sun and slowly gettin color while still getting your vitiam D. 
+                          </p>
+                          <ul>
+                            <li>Fast Color</li>
+                            <li> Popular mainly in women</li>
+                            <li>Most common while working outside or at the beach.</li>
+                          </ul>
+                        </div>
+                        <h3>Fake tanning</h3>
+                        <div>
+                          <p>
+                          Fake tanning when you use a moose, or a tanning water that you apply yourself. This is a little more upkeep but good for when you are on a budet.
+                          </p>
+                          <p>
+                          This is most common younger teens who can not do spray tans or lay in the tanning bed.
+                          </p>
+                        </div>
+                      </div>
+                    <a href="#top">Back To The Top</a>
+                </article>
+
+                <div class="feature"></div>
+                    <h3 id="Feature">Featured Project</h3>
+                    <div class="projects">
+                        <a href="Pictures/Beach Tanning.jpeg" data-lightbox="feature"></a>
+                        <a href="Pictures/Fake Tanning.jpeg" data-lightbox="feature"></a>
+                        <a href="Pictures/Tanning bed.jpeg" data-lightbox="feature"></a>
+                        <a href="Pictures/Spray Tan.jpeg" data-lightbox="feature"></a>
+                        <img src="Pictures/Beach Tanning.jpeg" alt="">
+                        <img src="Pictures/Fake Tanning.jpeg" alt="">
+                        <img src="Pictures/Tanning bed.jpeg" alt="">
+                        <img src="Pictures/Spray Tan.jpeg" alt="">
+    
+                </div>
+                <aside>
+                    <h3 id="Contact"> Contacts Info</h3>
+                    <h4>Morgan Mullen</h4>
+                    <ul>
+                        <li><a href="#"> Email Me</a></li>
+                        <li><a href="555-555-5555">Call me</a></li>
+                    </ul>
+                </aside>
+            
+        
+
+        <footer>&copy; 2021 Tanning</footer>
+    </div>
+</body>
+
+
+</html>
